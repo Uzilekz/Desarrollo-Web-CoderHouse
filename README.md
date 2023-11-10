@@ -18,6 +18,7 @@ Tiene 5 paginas principales:
 ### 'Inicio'
 Es la pagina principal que veras primero, donde podras visualizar:
 
+* Un gran banner inicial.
 * Prendas Destacadas.
 * Prendas Nuevas.
 * Pequeños banners publicitarios.
