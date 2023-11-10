@@ -1,6 +1,6 @@
 # "Yabeno"
 
-En este proyecto se busca crear una pagina web responsive para un Ecommerce, como proyecto final de "Desarrollo Web" de CoderHouse. \
+En este proyecto se busca crear una pagina web responsive para un Ecommerce, como proyecto final del curso "Desarrollo Web" de CoderHouse. \
 [Enlace a la Pagina.](https://uzilekz.github.io/Desarrollo-Web-CoderHouse/index.html)
 
 ## "Paginas"
