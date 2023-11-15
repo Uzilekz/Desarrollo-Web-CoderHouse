@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -13,45 +14,45 @@ html {
 /* GLOBAL */
 
 h1 {
-    font-size: 50px;
+    font-size: 3.125em;
     line-height: 64px;
     color: #222;
 }
 
 h2 {
-    font-size: 46px;
+    font-size: 2.875em;
     line-height: 54px;
     color: #222;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 1.25em;
     color: #222;
 }
 
 h6 {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 p {
-    font-size: 16px;
+    font-size: 1em;
     color: #465b52;
-    margin: 15px 0 20px 0;
+    margin: 0.9375em 0 1.25em 0;
 }
 
 .section-p1 {
-    padding: 40px 100px;
+    padding: 2.5em 6.25em;
 }
 
 .section-m1 {
-    margin: 40px 0;
+    margin: 2.5em 0;
 }
 
 button.normal {
-    font-size: 15px;
+    font-size: 0.9375em;
     font-weight: 600;
-    padding: 15px 30px;
+    padding: 0.9375em 1.875em;
     color: #000;
     background-color: #fff;
     border-radius: 4px;
@@ -62,9 +63,9 @@ button.normal {
 }
 
 button.white {
-    font-size: 13px;
+    font-size: 0.8125em;
     font-weight: 600;
-    padding: 10px 18px;
+    padding: 0.625em 1.125em;
     color: #fff;
     background-color: transparent;
     border-radius: 4px;
@@ -83,7 +84,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 70px;
+    padding: 0.9375em 4.375em;
     background: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
     z-index: 999;
@@ -104,13 +105,13 @@ body {
 
 .nav li {
     list-style: none;
-    padding: 0 20px;
+    padding: 0 1.25em;
     position: relative;
 }
 
 .nav li a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 600;
     color: #1a1a1a;
     transition: 0.3s ease;
@@ -138,7 +139,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10%;
-    padding: 0 80px;
+    padding: 0 5em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -162,11 +163,11 @@ body {
     background-color: transparent;
     color: #4d00b3;
     border: 0;
-    padding: 15px 80px 15px 50px;
+    padding: 0.9375em 5em 0.9375em 3.125em;
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 0.9375em;
 }
 
 /* FEATURES */
@@ -180,11 +181,11 @@ body {
 .feature .feature__box {
     width: 180px;
     text-align: center;
-    padding: 25px 15px;
+    padding: 1.5625em 0.9375em;
     box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.07);
     border: 1px solid #cce7d0;
     border-radius: 5px;
-    margin: 10px;
+    margin: 0.625em;
 }
 
 .feature .feature__box:hover {
@@ -193,12 +194,12 @@ body {
 
 .feature .feature__box img {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 .feature .feature__box h6 {
     display: inline-block;
-    padding: 9px 8px 6px 8px;
+    padding: 0.5625em 0.5em 0.375em 0.5em;
     line-height: 1;
     border-radius: 5px;
     color: #1a1a1a;
@@ -233,19 +234,19 @@ body {
 .product1 .product-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 1.25em;
     flex-wrap: wrap;
 }
 
 .product1 .product {
     width: 23%;
     min-width: 250px;
-    padding: 10px 12px;
+    padding: 0.625em 0.75em;
     border: 1px solid #cce7d0;
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    margin: 15px 0;
+    margin: 0.9375em 0;
     transition: 0.2s ease;
     position: relative;
 }
@@ -261,28 +262,28 @@ body {
 
 .product1 .product .product__description {
     text-align: start;
-    padding: 10px 0;
+    padding: 0.625em 0;
 }
 
 .product1 .product .product__description span {
     color: #060606;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 .product1 .product .product__description h5 {
-    padding-top: 7px;
+    padding-top: 0.4375em;
     color: #1a1a1a;
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 .product1 .product .product__description i {
-    font-size: 12px;
+    font-size: 0.75em;
     color: rgb(243, 181, 25);
 }
 
 .product1 .product .product__description h4 {
-    padding-top: 7px;
-    font-size: 15px;
+    padding-top: 0.4375em;
+    font-size: 0.9375em;
     font-weight: 700;
     color: #4d00b3;
 }
@@ -296,8 +297,8 @@ body {
     color: #4d00b3;
     border: 1px solid #cce7d0;
     position: absolute;
-    bottom: 20px;
-    right: 10px;
+    bottom: 1.25em;
+    right: 0.625em;
 }
 
 /* BANNER */
@@ -316,13 +317,13 @@ body {
 
 .banner h4 {
     color: #fff;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .banner h2 {
     color: #fff;
-    font-size: 30px;
-    padding: 10px 0;
+    font-size: 1.875em;
+    padding: 0.625em 0;
 }
 
 .banner h2 span {
@@ -351,28 +352,28 @@ body {
     height: 40vh;
     background-size: cover;
     background-position: center;
-    padding: 30px;
-    margin: 40px 15px;
+    padding: 1.875em;
+    margin: 2.5em 0.9375em;
     border-radius: 15px;
 }
 
 .sm-banner h4 {
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 300;
 }
 
 .sm-banner h2 {
     color: #fff;
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: 800;
 }
 
 .sm-banner p {
     color: #fff;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 500;
-    padding-bottom: 15px;
+    padding-bottom: 0.9375em;
 }
 
 .sm-banner .banner-box:hover button {
@@ -397,13 +398,13 @@ body {
 }
 
 .newsletter h4 {
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 700;
     color: #fff;
 }
 
 .newsletter p {
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 600;
     color: #818ea0;
 }
@@ -420,7 +421,7 @@ body {
 .newsletter input {
     height: 3rem;
     padding: 0 1.25rem;
-    font-size: 14px;
+    font-size: 0.875em;
     width: 100%;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -448,35 +449,35 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 30px;
-    margin-bottom: 20px;
+    margin-left: 1.875em;
+    margin-bottom: 1.25em;
 }
 
 .footer h4 {
-    font-size: 14px;
-    padding-bottom: 20px;
+    font-size: 0.875em;
+    padding-bottom: 1.25em;
 }
 
 .footer p {
-    font-size: 13px;
-    margin: 0 0 8px 0;
+    font-size: 0.8125em;
+    margin: 0 0 0.5em 0;
 }
 
 .footer a {
-    font-size: 13px;
+    font-size: 0.8125em;
     text-decoration: none;
     color: #222;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 /* FOOTER SOCIAL */
 .footer .footer__social {
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .footer .footer__social i {
     color: #465b52;
-    padding-right: 5px;
+    padding-right: 0.3125em;
     cursor: pointer;
 }
 
@@ -486,7 +487,7 @@ body {
 }
 
 .footer .footer__install img {
-    margin: 10px 0 15px 0;
+    margin: 0.625em 0 0.9375em 0;
 }
 
 .footer .footer__install .row img {
@@ -521,14 +522,14 @@ body {
 .pagination a {
     text-decoration: none;
     background-color: #4d00b3;
-    padding: 15px 20px;
+    padding: 0.9375em 1.25em;
     border-radius: 5px;
     color: #fff;
     font-weight: 600;
 }
 
 .pagination a i {
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 600;
 }
 
@@ -558,7 +559,7 @@ body {
 }
 
 .about-principal div {
-    padding-left: 40px;
+    padding-left: 2.5em;
 }
 
 .about-principal img {
@@ -569,7 +570,7 @@ body {
 }
 
 .about-principal h2 {
-    font-size: 35px;
+    font-size: 2.1875em;
 }
 
 .about-principal p {
@@ -584,12 +585,12 @@ body {
 .about-app__video {
     width: 70%;
     height: 100%;
-    margin: 30px auto 0 auto;
+    margin: 1.875em auto 0 auto;
 }
 
 .about-app h2 {
-    margin-top: 35px;
-    font-size: 40px;
+    margin-top: 2.1875em;
+    font-size: 2.5em;
 }
 
 .about-app a {
@@ -614,7 +615,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 15px;
+    padding: 0.9375em;
 }
 
 .contact-banner p {
@@ -634,30 +635,30 @@ body {
 
 .contact-details h2,
 .contact-form form h2 {
-    font-size: 25px;
+    font-size: 1.5625em;
     line-height: 35px;
-    padding: 20px 0;
+    padding: 1.25em 0;
 }
 
 .contact-details h3 {
-    font-size: 15px;
-    padding-bottom: 15px;
+    font-size: 0.9375em;
+    padding-bottom: 0.9375em;
 }
 
 .contact-details .details li {
     list-style: none;
     display: flex;
-    padding: 10px 0;
+    padding: 0.625em 0;
 }
 
 .contact-details .details li i {
-    font-size: 15px;
-    padding-right: 20px;
+    font-size: 0.9375em;
+    padding-right: 1.25em;
 }
 
 .contact-details .details li p {
     margin: 0;
-    font-size: 13px;
+    font-size: 0.8125em;
 }
 
 /* MAP */
@@ -679,7 +680,7 @@ body {
     display: flex;
     justify-content: center;
     border-top: 2px solid rgba(0, 0, 0, 0.3);
-    margin-top: 25px;
+    margin-top: 1.5625em;
 }
 
 .contact-form form {
@@ -687,15 +688,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 25px 0;
+    margin: 1.5625em 0;
 }
 
 .contact-form form input,
 .contact-form form textarea {
     width: 100%;
-    padding: 12px 15px;
+    padding: 0.75em 0.9375em;
     outline: none;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     border: 2px solid rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     resize: none;
@@ -718,7 +719,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 15px;
+    padding: 0.9375em;
 }
 
 .cart-banner p {
@@ -728,7 +729,7 @@ body {
 /* PRODUCTS */
 .cart-products {
     overflow-x: auto;
-    margin: 50px 0;
+    margin: 3.125em 0;
 }
 
 .cart-products table {
@@ -762,7 +763,7 @@ body {
 
 .cart-products table td:nth-child(5) input {
     width: 70px;
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
 }
 
 .cart-products table thead {
@@ -774,20 +775,20 @@ body {
 .cart-products table thead td {
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 15px;
-    padding: 15px 0;
+    font-size: 0.9375em;
+    padding: 0.9375em 0;
 }
 
 .cart-products table tbody tr td {
-    padding-top: 15px;
+    padding-top: 0.9375em;
 }
 
 .cart-products table tbody td {
-    font-size: 13px;
+    font-size: 0.8125em;
 }
 
 .cart-products i {
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .cart-products table img {
@@ -802,7 +803,7 @@ body {
 /* RESPONSIVE */
 @media (max-width: 799px) {
     .section-p1 {
-        padding: 40px 40px;
+        padding: 2.5em 2.5em;
     }
     .nav ul {
         display: flex;
@@ -811,27 +812,27 @@ body {
         justify-content: flex-start;
         position: fixed;
         top: 0;
-        right: -300px;
+        right: -18.75em;
         height: 100vh;
         width: 300px;
         background-color: #e3e6f3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 80px 0 0 10px;
+        padding: 5em 0 0 0.625em;
         transition: 0.3s;
     }
     .nav ul.active {
-        right: 0px;
+        right: 0em;
     }
     #close {
         display: inline;
         position: absolute;
-        top: 30px;
-        left: 30px;
+        top: 1.875em;
+        left: 1.875em;
         color: #222;
-        font-size: 25px;
+        font-size: 1.5625em;
     }
     .nav ul li {
-        margin-bottom: 25px;
+        margin-bottom: 1.5625em;
     }
     .mobile {
         display: flex;
@@ -840,28 +841,28 @@ body {
     }
     .mobile i {
         color: #1a1a1a;
-        font-size: 25px;
-        padding-left: 20px;
+        font-size: 1.5625em;
+        padding-left: 1.25em;
     }
     .nav__menu-bag {
         display: none;
     }
     .hero {
         height: 70vh;
-        padding: 0 80px;
+        padding: 0 5em;
         background-position: top 30% right 30%;
     }
     .feature {
         justify-content: center;
     }
     .feature .feature__box {
-        margin: 15px 15px;
+        margin: 0.9375em 0.9375em;
     }
     .product1 .product-container {
         justify-content: center;
     }
     .product1 .product {
-        margin: 15px;
+        margin: 0.9375em;
     }
     .banner {
         height: 40vh;
@@ -879,39 +880,43 @@ body {
         align-items: center;
     }
     .about-principal h2 {
-        font-size: 30px;
+        font-size: 1.6875em;
+        text-align: center;
     }
     .about-principal img {
         width: 80%;
-        margin-bottom: 20px;
+        margin-bottom: 0.625em;
     }
     .about-app h2 {
-        font-size: 30px;
+        font-size: 1.6875em;
+        margin: 0;
     }
     .contact-form form {
         width: 70%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin: 25px 0;
+        margin: 1.5625em 0;
     }
 }
 
 @media (max-width: 500px) {
     .section-p1 {
-        padding: 20px;
+        padding: 1.25em;
     }
     .header {
-        padding: 10px 30px;
+        padding: 0.625em 1.875em;
     }
     h1 {
-        font-size: 35px;
+        font-size: 2.1875em;
+        line-height: 45px;
     }
     h2 {
-        font-size: 30px;
+        font-size: 1.875em;
+        line-height: 45px;
     }
     .hero {
-        padding: 0 20px;
+        padding: 0 1.25em;
         background-position: 55%;
     }
     .feature {
@@ -919,7 +924,7 @@ body {
     }
     .feature .feature__box {
         width: 150px;
-        margin: 0 0 15px 0;
+        margin: 0 0 0.9375em 0;
     }
     .product1 .product {
         width: 100%;
@@ -931,7 +936,7 @@ body {
         height: 50vh;
     }
     .newsletter {
-        padding: 40px 20px;
+        padding: 2.5em 1.25em;
     }
     .newsletter .newsletter__form {
         width: 100%;
@@ -955,7 +960,7 @@ body {
     }
     .contact-details__map {
         width: 85%;
-        margin-top: 25px;
+        margin-top: 1.5625em;
     }
     .contact-form form {
         width: 80%;
