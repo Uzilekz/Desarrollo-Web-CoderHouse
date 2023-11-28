@@ -1,0 +1,27 @@
+button {
+    &.normal {
+        font-size: 0.9375em;
+        font-weight: 600;
+        padding: 0.9375em 1.875em;
+        color: #000;
+        background-color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        transition: 0.2s;
+    }
+
+    &.white {
+        font-size: 0.8125em;
+        font-weight: 600;
+        padding: 0.625em 1.125em;
+        color: #fff;
+        background-color: transparent;
+        border-radius: 4px;
+        cursor: pointer;
+        border: 1px solid #fff;
+        outline: none;
+        transition: 0.2s;
+    }
+}

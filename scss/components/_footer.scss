@@ -1,0 +1,59 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 1.875em;
+        margin-bottom: 1.25em;
+    }
+
+    h4 {
+        font-size: 0.875em;
+        padding-bottom: 1.25em;
+    }
+
+    p {
+        font-size: 0.8125em;
+        margin: 0 0 0.5em 0;
+    }
+
+    a {
+        font-size: 0.8125em;
+        text-decoration: none;
+        color: $title-color;
+        margin-bottom: 0.625em;
+    }
+
+    .footer__social {
+        margin-top: 1.25em;
+
+        i {
+            color: $subtitle-color;
+            padding-right: 0.3125em;
+            cursor: pointer;
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+
+    a:hover {
+        color: $primary-color;
+    }
+
+    .footer__install {
+        img {
+            margin: 0.625em 0 0.9375em 0;
+        }
+
+        .row img {
+            border: 1px solid $primary-color;
+            border-radius: 5px;
+        }
+    }
+}

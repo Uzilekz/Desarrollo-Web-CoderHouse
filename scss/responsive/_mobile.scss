@@ -1,0 +1,81 @@
+@media (max-width: 500px) {
+    .section-p1 {
+        padding: 1.25em;
+    }
+
+    .header {
+        padding: 0.625em 1.875em;
+    }
+
+    h1 {
+        font-size: 2.1875em;
+        line-height: 45px;
+    }
+
+    h2 {
+        font-size: 1.875em;
+        line-height: 45px;
+    }
+
+    .hero {
+        padding: 0 1.25em;
+        background-position: 55%;
+    }
+
+    .feature {
+        justify-content: space-around;
+
+        .feature__box {
+            width: 150px;
+            margin: 0 0 0.9375em 0;
+        }
+    }
+
+    .product1 .product {
+        width: 100%;
+    }
+
+    .banner,
+    .sm-banner .banner-box {
+        height: 50vh;
+    }
+
+    .newsletter {
+        padding: 2.5em 1.25em;
+
+        .newsletter__form {
+            width: 100%;
+        }
+    }
+
+    .about-principal div {
+        padding-left: 0;
+    }
+
+    .about-app__video {
+        width: 100%;
+    }
+
+    .contact-banner {
+        background-image: url(../img/banner/b3.png);
+        background-size: cover;
+        background-position: 65%;
+    }
+
+    .contact-details {
+        flex-direction: column;
+
+        .details {
+            width: 85%;
+        }
+    }
+
+    .contact-details__map {
+        width: 85%;
+        margin-top: 1.5625em;
+    }
+
+    .contact-form form {
+        width: 80%;
+    }
+}

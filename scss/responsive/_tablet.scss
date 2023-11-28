@@ -1,0 +1,125 @@
+@media (max-width: 799px) {
+    .section-p1 {
+        padding: 2.5em 2.5em;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -18.75em;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 5em 0 0 0.625em;
+        transition: 0.3s;
+
+        &.active {
+            right: 0em;
+        }
+    }
+
+    #close {
+        display: inline;
+        position: absolute;
+        top: 1.875em;
+        left: 1.875em;
+        color: $title-color;
+        font-size: 1.5625em;
+    }
+
+    .nav ul li {
+        margin-bottom: 1.5625em;
+
+        a:hover,
+        a.active {
+            font-size: 1em;
+        }
+    }
+
+    .mobile {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        i {
+            color: #1a1a1a;
+            font-size: 1.5625em;
+            padding-left: 1.25em;
+        }
+    }
+
+    .nav__menu-bag {
+        display: none;
+    }
+
+    .hero {
+        height: 70vh;
+        padding: 0 5em;
+        background-position: top 30% right 30%;
+    }
+
+    .feature {
+        justify-content: center;
+
+        .feature__box {
+            margin: 0.9375em 0.9375em;
+        }
+    }
+
+    .product1 {
+        .product-container {
+            justify-content: center;
+        }
+
+        .product {
+            margin: 0.9375em;
+        }
+    }
+
+    .banner {
+        height: 40vh;
+    }
+
+    .sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh;
+        margin: 15px 0;
+    }
+
+    .newsletter .newsletter__form {
+        width: 70%;
+    }
+
+    .about-principal {
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            font-size: 1.6875em;
+            @include center-text;
+        }
+
+        img {
+            width: 80%;
+            margin-bottom: 0.625em;
+        }
+    }
+
+    .about-app h2 {
+        font-size: 1.6875em;
+        margin: 0;
+    }
+
+    .contact-form form {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 1.5625em 0;
+    }
+}

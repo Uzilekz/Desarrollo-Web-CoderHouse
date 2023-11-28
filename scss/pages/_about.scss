@@ -1,0 +1,73 @@
+/* BANNER */
+
+.about-banner {
+    background-image: url(../img/banner/b19.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+
+    p {
+        font-weight: bold;
+    }
+}
+
+/* PRINCIPAL */
+
+.about-principal {
+    display: flex;
+    align-items: center;
+
+    div {
+        padding-left: 2.5em;
+    }
+
+    img {
+        width: 45%;
+        height: auto;
+        border: 2px solid #1a1a1a;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 2.1875em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+}
+
+/* APP */
+
+.about-app {
+    @include center-text;
+}
+
+.about-app__video {
+    width: 70%;
+    height: 100%;
+    margin: 1.875em auto 0 auto;
+}
+
+.about-app {
+    h2 {
+        margin-top: 2.1875em;
+        font-size: 2.5em;
+    }
+
+    a {
+        color: $primary-color;
+    }
+}
+
+.about-app__video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
